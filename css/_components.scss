@@ -1,0 +1,13 @@
+@mixin cart__button {
+    background-color: $color-white;
+    width: 20vw;
+    height: 3vw;
+    border-radius: 1rem;
+}
+
+@mixin products__button {
+    background-color: $color-white;
+    width: 5vw;
+    height: 2.2vw;
+    border-radius: 1rem;
+}

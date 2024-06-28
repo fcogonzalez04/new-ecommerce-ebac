@@ -1,0 +1,95 @@
+$font-family: 'lexen', arial, helvetica, sans-serif;
+
+$color-white: #fff;
+
+$full: 100vw;
+
+$color-black: #000000;
+
+$font-size-text: 1rem;
+
+$font-size-title: 1rem;
+
+$products-img-size: 12.5rem;
+
+$logo-size: 6rem;
+
+$header-icon-size: 1.5rem;
+
+$cursor: pointer;
+
+$auto: 0 auto;
+
+$center: center;
+
+$color-red: #c50202;
+
+@mixin products__img {
+    width: $products-img-size;
+    margin-bottom: 15px;
+}
+
+@mixin products__title {
+    font-size: $font-size-title;
+    margin-bottom: 5px;
+    font-weight: 500px;
+}
+
+@mixin products__text {
+    font-size: $font-size-text;
+}
+
+@mixin cart__title {
+    width: 25vw;
+    text-align: center;
+    font-size: $font-size-title;
+    font-weight: 600;
+    padding: 25px 0;
+    box-sizing: border-box;
+    color: $color-black;
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: $center;
+    box-sizing: border-box;
+}
+
+@mixin cart__item {
+    border-bottom: 1px solid #333;
+    @include flex;
+    padding: 15px;
+}
+
+@mixin cart__img--delete {
+    width: $full;
+    max-width: 25px;
+    cursor: pointer;
+}
+
+@mixin header__logo {
+    width: $logo-size;
+}
+
+@mixin header__icons {
+    padding: 0;
+    img {
+        width: $header-icon-size;
+        padding: 0;
+    }
+}
+
+@mixin header__menu {
+    color: #000000;
+    &:hover {
+        text-decoration: underline;
+    }
+    font-size: $font-size-title;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+%font-weight {
+    font-weight: 300;
+}

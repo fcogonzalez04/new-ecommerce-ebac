@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Adidas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;700&display=swap" 
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="javascript/functions.js" defer></script>
+</head>
+<body>
+    <header class="header">
+
+        <article class="header__discount">
+            <h2>hasta 6 meses sin intereses</h2>
+        </article>
+
+        <article class="header__logo">
+            <img src="./img/logo.jpg">
+        </article>
+        <article class="menu">
+            <h3 class="menu__shoes">calzado</h3>
+            <h3 class="menu__women">mujer</h3>
+            <h3 class="menu__men">hombre</h3>
+            <h3 class="menu__kids">niños</h3>
+            <h3 class="menu__sports">deportes</h3>
+            <h3 class="menu__world">mundo adidas</h3>
+            <h3 class="menu__discount">hasta 60% off</h3>
+        </article>
+        <article class="header__icons">
+            <i><img src="img/user.svg" alt="Icono Usuario" class="header__user"></i>
+            <i><img src="img/heart.svg" alt="Icono Guardar" class="header__liked"></i>
+            <i class="cart-icon-container">
+                <img src="img/cart.jpg" alt="Icono de Carrito" class="header__cart">
+                <span class="cart-item-count">0</span>
+            </i>
+        </article>
+        <article class="header__discount--second">
+            <h3>
+                Hasta 60% OFF + 15% EXTRA usando el código 🎫ADIDAS15🎫 APROVECHAR AHORA
+            </h3>
+        </article>
+        <article class="banner">
+            <h2 class="banner__title">la pasión que nos mueve</h2>
+            <p class="banner__text">El país se viste de fútbol. Únete a la afición para apoyar a nuestra selección.</p>
+            <button class="banner__button">COMPRAR JERSEY SNM</button>
+        </article>
+    </header>
+
+    <main>
+
+        <section class="products">
+            <article class="products__item">
+                <img src="img/jersey.jpg" alt="Jersey de México" class="products__img">
+                <h3 class="products__title">Jersey México 2023</h3>
+                <p class="products__price">$1,000.00 MXN</p>
+                <button class="product__cart" data-product="Jersey" data-price="1000" data-img="img/jersey.jpg">Agregar al Carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img src="img/chamarra.avif" alt="Chamarra Adidas de Hombre" class="products__img">
+                <h3 class="products__title">Chamarra Adidas Spezial</h3>
+                <p class="products__price">$2,000.00 MXN</p>
+                <button class="product__cart" data-product="Chamarra" data-price="2000" data-img="img/chamarra.avif">Agregar al Carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img src="img/lg2.jpg" alt="Tenis Adidas" class="products__img">
+                <h3 class="products__title">Adidas LG2</h3>
+                <p class="products__price">$2,300.00 MXN</p>
+                <button class="product__cart" data-product="Adidas LG2" data-price="2300" data-img="img/lg2.jpg">Agregar al Carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img src="img/jersey.jpg" alt="Jersey de México" class="products__img">
+                <h3 class="products__title">Jersey México 2023</h3>
+                <p class="products__price">$1,000.00 MXN</p>
+                <button class="product__cart" data-product="Jersey" data-price="1000" data-img="img/jersey.jpg">Agregar al Carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img src="img/chamarra.avif" alt="Chamarra Adidas de Hombre" class="products__img">
+                <h3 class="products__title">Chamarra Adidas Spezial</h3>
+                <p class="products__price">$2,000.00 MXN</p>
+                <button class="product__cart" data-product="Chamarra" data-price="2000" data-img="img/chamarra.avif">Agregar al Carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img src="img/lg2.jpg" alt="Tenis Adidas" class="products__img">
+                <h3 class="products__title">Adidas LG2</h3>
+                <p class="products__price">$2,300.00 MXN</p>
+                <button class="product__cart" data-product="Adidas LG2" data-price="2300" data-img="img/lg2.jpg">Agregar al Carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img src="img/jersey.jpg" alt="Jersey de México" class="products__img">
+                <h3 class="products__title">Jersey México 2023</h3>
+                <p class="products__price">$1,000.00 MXN</p>
+                <button class="product__cart" data-product="Jersey" data-price="1000" data-img="img/jersey.jpg">Agregar al Carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img src="img/chamarra.avif" alt="Chamarra Adidas de Hombre" class="products__img">
+                <h3 class="products__title">Chamarra Adidas Spezial</h3>
+                <p class="products__price">$2,000.00 MXN</p>
+                <button class="product__cart" data-product="Chamarra" data-price="2000" data-img="img/chamarra.avif">Agregar al Carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img src="img/lg2.jpg" alt="Tenis Adidas" class="products__img">
+                <h3 class="products__title">Adidas LG2</h3>
+                <p class="products__price">$2,300.00 MXN</p>
+                <button class="product__cart" data-product="Adidas LG2" data-price="2300" data-img="img/lg2.jpg">Agregar al Carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img src="img/jersey.jpg" alt="Jersey de México" class="products__img">
+                <h3 class="products__title">Jersey México 2023</h3>
+                <p class="products__price">$1,000.00 MXN</p>
+                <button class="product__cart" data-product="Jersey" data-price="1000" data-img="img/jersey.jpg">Agregar al Carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img src="img/chamarra.avif" alt="Chamarra Adidas de Hombre" class="products__img">
+                <h3 class="products__title">Chamarra Adidas Spezial</h3>
+                <p class="products__price">$2,000.00 MXN</p>
+                <button class="product__cart" data-product="Chamarra" data-price="2000" data-img="img/chamarra.avif">Agregar al Carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img src="img/lg2.jpg" alt="Tenis Adidas" class="products__img">
+                <h3 class="products__title">Adidas LG2</h3>
+                <p class="products__price">$2,300.00 MXN</p>
+                <button class="product__cart" data-product="Adidas LG2" data-price="2300" data-img="img/lg2.jpg">Agregar al Carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img src="img/jersey.jpg" alt="Jersey de México" class="products__img">
+                <h3 class="products__title">Jersey México 2023</h3>
+                <p class="products__price">$1,000.00 MXN</p>
+                <button class="product__cart" data-product="Jersey" data-price="1000" data-img="img/jersey.jpg">Agregar al Carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img src="img/chamarra.avif" alt="Chamarra Adidas de Hombre" class="products__img">
+                <h3 class="products__title">Chamarra Adidas Spezial</h3>
+                <p class="products__price">$2,000.00 MXN</p>
+                <button class="product__cart" data-product="Chamarra" data-price="2000" data-img="img/chamarra.avif">Agregar al Carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img src="img/lg2.jpg" alt="Tenis Adidas" class="products__img">
+                <h3 class="products__title">Adidas LG2</h3>
+                <p class="products__price">$2,300.00 MXN</p>
+                <button class="product__cart" data-product="Adidas LG2" data-price="2300" data-img="img/lg2.jpg">Agregar al Carrito</button>
+            </article>
+        </section>
+
+        <section class="cart">
+            <h2 class="cart__title">CARRITO</h2>
+            <div class="cart__items">
+            </div>
+            <div class="cart__total">
+                Total: $0.00 MXN
+            </div>
+            <article cart__buy>
+                <button class="cart__button">BUY</button>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
